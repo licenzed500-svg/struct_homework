@@ -66,5 +66,5 @@ int main()
     fill_random(sensors, count_sensors);
     Most_accurate some_sensor = most_accuracy_sensor(sensors, count_sensors);
     data_out(&some_sensor);
-    
+    delete[] sensors;
 }
