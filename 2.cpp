@@ -86,5 +86,6 @@ int main()
     Robot *robot = new Robot[robots_count];
     set_random(robot, robots_count);
     smallest_robot(robot, robots_count);
+    delete[] robot;
     
 }
